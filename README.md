@@ -1,6 +1,6 @@
 # delayq
 
-`delayq` is a go implementation of a redis based delayed queue as described 
+`delayq` is a Go implementation of a redis based delayed queue as described 
 the [Redis In Action](https://redis.com/ebook/part-2-core-concepts/chapter-6-application-components-in-redis/6-4-task-queues/6-4-2-delayed-tasks/) ebook. 
 Messages added to the queue have a deadline, the library will "pop" messages off the queue when the deadline is reached. 
 
